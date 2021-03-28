@@ -20,3 +20,4 @@ cd cors-escape
 npm install
 ./install.sh
 ```
+Open `yourIP:2000`
