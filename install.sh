@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp -r lib /
+
+systemctl enable farmbotosproxy.service
+systemctl daemon-reload
+systemctl start jsonproxy
