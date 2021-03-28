@@ -9,3 +9,14 @@ Modified to redirect requests received at `/path` to `http:/my.farmbot.io/path` 
 A service file has also been created so it can have its logs go to syslog.
 
 Make sure to clone in `/root/dev` or modify `ExecStart` in `lib/systemd/system/...` 
+
+## Installation
+
+```bash
+mkdir -p /root/dev
+cd /root/dev
+git clone git@github.com:AngelFarmer/cors-escape.git
+cd cors-escape
+npm install
+./install.sh
+```
